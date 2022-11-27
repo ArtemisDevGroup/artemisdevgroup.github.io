@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f5f7fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-image {
+  background-image: url(FullBlur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+}
+
+.dark {
+  color: #b9b9b9;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-top: -550px;
+}
+
+#groupmain {
+  margin-right: -150px;
+  margin-top: -85px;
+  color: dimgray;
+}
+
+.hero-heading {
+  background-color: transparent;
+  width: 1920px;
+  height: 500px;
+  margin-top: 394px;
+  color: #333;
+}
+
+.what-do-we-do {
+  background-color: #f5f7fa;
+  width: 500px;
+  height: 400px;
+  margin-top: 500px;
+  margin-left: 350px;
+  font-size: 22px;
+}
+
+.what-do-we-do h1 {
+  text-decoration: underline;
+}
+
+.what-do-we-do h2 {
+  font-size: 30px;
+}
+
+.what-do-we-do img {
+  width: 500px;
+  margin-top: -400px;
+  margin-left: 650px;
+  margin-bottom: 60px;
+}
+
+.hero-container {
+  background-color: #f5f7fa;
+  border-top-style: solid;
+  border-color: rgba(0, 0, 0, 0.03);
+  width: 1920px;
+  height: 500px;
+  color: #333;
+}
+
+.why-do-we-do-it {
+  background-color: #f5f7fa;
+  width: 500px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 350px;
+  font-size: 22px;
+}
+
+.why-do-we-do-it h1 {
+  text-decoration: underline;
+}
+
+.why-do-we-do-it h2 {
+  font-size: 30px;
+}
+
+.why-do-we-do-it img {
+  width: 500px;
+  margin-top: -200px;
+  margin-left: 650px;
+}
+
+.hero-container-2 {
+  background-color: #f5f7fa;
+  border-top-style: solid;
+  border-color: rgba(0, 0, 0, 0.03);
+  width: 1920px;
+  height: 900px;
+  color: #333;
+}
+
+.who-are-we {
+  background-color: #f5f7fa;
+  width: 640px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 600px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.who-are-we h1 {
+  text-decoration: underline;
+}
+
+.who-are-we h2 {
+  font-size: 25px;
+}
+
+.us-container {
+  background-color: #f5f7fa;
+  width: 1300px;
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.team-block1 {
+  background-color: white;
+  width: 300px;
+  height: 500px;
+}
+
+.team-block1 img {
+  width: 300px;
+}
+
+.team-block1 h2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.team-block1 p {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+a {
+  color: #333;
+  margin-left: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
