@@ -7,6 +7,21 @@ body, html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+  }
+
+#input-color-switch{
+    height: 4%;
+}
+
+.dark-mode{
+    background-color: #272727;
+    color: whitesmoke;
+}
+
 .bg-image{
     background-image: url(FullBlur.jpg);
     background-repeat: no-repeat;
@@ -42,7 +57,7 @@ body, html{
 
 .what-do-we-do{
     background-color: rgba($color: #f5f7fa, $alpha: 1.0);
-    // width: 500px;
+    // width: 8.33%;
     // height: 400px;
     font-size: 22px;
     margin: 0 auto;
@@ -138,7 +153,7 @@ body, html{
 }
 .team-block1{
     background-color: white;
-    width: 300px;
+    width: 22.4%;
     height: 500px;
 }
 
@@ -165,7 +180,7 @@ a{
 
 .team-block2{
     background-color: white;
-    width: 300px;
+    width: 22.4%;
     height: 500px;
     margin-left: 350px;
     margin-top: -500px;
@@ -188,7 +203,7 @@ a{
 
 .team-block3{
     background-color: white;
-    width: 300px;
+    width: 22.4%;
     height: 500px;
     margin-left: 700px;
     margin-top: -500px;
@@ -211,7 +226,7 @@ a{
 
 .team-block4{
     background-color: white;
-    width: 300px;
+    width: 22.4%;
     height: 500px;
     margin-left: 1050px;
     margin-top: -500px;
