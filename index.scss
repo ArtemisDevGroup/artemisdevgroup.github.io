@@ -7,12 +7,6 @@ body, html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-  }
-
 #input-color-switch{
     height: 4%;
 }
@@ -72,6 +66,7 @@ body, html{
 }
 
 .what-do-we-do img{
+    max-width: 800px;
     width: 500px;
     margin-top: -400px;
     margin-left: 650px;
@@ -110,6 +105,7 @@ body, html{
 }
 
 .why-do-we-do-it img{
+    max-width: 100%;
     width: 500px;
     margin-top: -200px;
     margin-left: 650px;
@@ -158,7 +154,7 @@ body, html{
 }
 
 .team-block1 img{
-    width: 300px;
+    max-width: 100%;
 }
 
 .team-block1 h2{
@@ -187,7 +183,7 @@ a{
 }
 
 .team-block2 img{
-    width: 300px;
+    max-width: 100%;
 }
 
 .team-block2 h2{
@@ -210,7 +206,7 @@ a{
 }
 
 .team-block3 img{
-    width: 300px;
+    max-width: 100%;
 }
 
 .team-block3 h2{
@@ -233,7 +229,7 @@ a{
 }
 
 .team-block4 img{
-    width: 300px;
+    max-width: 100%;
 }
 
 .team-block4 h2{
