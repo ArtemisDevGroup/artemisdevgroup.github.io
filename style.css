@@ -1,0 +1,284 @@
+:root {
+  --light-color: white;
+
+  --dark-color: #222222;
+  --dark-color-alt: #2A2A2A;
+
+  --github-icon-dark: url(resources/img/GitHub_Dark.png);
+  --github-icon-light: url(resources/img/GitHub_Light.png);
+
+  /* Set the following to change the color scheme. */
+
+  /* Light mode */
+
+  --font-color: black;
+  --background-color: var(--light-color);
+  --github-icon: var(--github-icon-dark)
+
+  /* Dark mode
+
+  --font-color: white;
+  --background-color: var(--dark-color-alt);
+  --github-icon: var(--github-icon-light);
+
+  */
+}
+
+@font-face {
+  font-family: Blanka;
+  src: url(resources/font/Blanka-Regular.otf);
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: var(--font-color);
+}
+
+/* Navbar */
+
+.top-navbar {
+  width: 100%;
+  height: auto;
+
+  background-color: var(--dark-color);
+  display: grid;
+
+  align-items: center;
+
+  grid-template-columns: 4em 0 auto;
+}
+
+.top-navbar-container a {
+  white-space: nowrap;
+}
+
+.top-navbar-logo-container {
+  width: auto;
+  justify-self: right;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.top-navbar-logo-container p {
+  font-weight: normal;
+  font-family: Blanka;
+  font-size: 3rem;
+  color: white;
+
+  margin: 0 1rem 1.2rem 0;
+  align-self: center;
+}
+
+.top-navbar-image-container {
+  width: 4rem;
+  padding: 0.5rem;
+}
+
+.top-navbar-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .active {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .top-navbar {
+    align-items: center;
+    direction: rtl;
+    justify-content: left;
+    grid-template-columns: 4rem 0.35rem auto;
+  }
+
+  .top-navbar-container {
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    align-items: center;
+
+    height: 100%;
+  }
+
+  .top-navbar-container a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 1.2rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .top-navbar-container a:hover {
+    background-color: var(--dark-color-alt);
+  }
+
+  .top-navbar-divider {
+    justify-self: center;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    border-radius: 1rem;
+  }
+
+  .top-navbar-logo-container {
+    direction: ltr;
+  }
+}
+
+/* Front Page Header */
+
+#front-page-header {
+  background-image: url("resources/img/Standard.jpg");
+  background-position: center 20%;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-color: black;
+
+  width: 100%;
+  height: auto; 
+}
+
+#front-page-header img {
+  display: block;
+  height: 30%;
+  margin: 0 auto;
+  padding-top: 6%;
+}
+
+#front-page-header h1 {
+  text-align: center;
+
+  color: white;
+
+  font-family: Blanka;
+  font-weight: normal;
+  font-size: 5em;
+
+  margin-block: 0;
+
+  padding-bottom: 5%;
+}
+
+/* QNA */
+
+/* Contributors */
+
+.contributor-section {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.contributor-section h2 {
+  font-size: 2.5em;
+  justify-self: center;
+}
+
+.contributor-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contributor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 12rem;
+  height: 24rem;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.contributor img {
+  width: 100%;
+}
+
+.name {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.role {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.socials {
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.socials a {
+  font-size: 0.9em;
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  padding-left: 1.3em;
+
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.github {
+  background-image: var(--github-icon);
+}
+
+.github:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--dark-color);
+
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+
+  padding: 1rem 0 4rem 0;
+}
+
+footer h1 {
+  text-align: center;
+  color: white;
+
+  font-family: Blanka;
+  font-weight: normal;
+  font-size: 4em;
+
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+
+.legal-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.legal-link-container a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.legal-link-container a:hover {
+  text-decoration: underline;
+}
