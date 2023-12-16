@@ -261,6 +261,12 @@ footer p {
   height: 24rem;
   margin: 1rem;
   padding: 2rem;
+
+  transition: 0.1s;
+}
+
+.contributor:hover {
+  transform: translateY(-0.5rem);
 }
 
 .contributor img {
