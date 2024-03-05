@@ -57,11 +57,28 @@ body {
   position: fixed;
   right: 0;
 
-  width: 45vw;
+  width: 50vw;
+  padding: 1rem;
+  padding-top: 0.8rem;
 
   background-color: var(--dark-color);
 
   visibility: hidden;
+}
+
+#menu-close-button {
+  margin-left: auto;
+  margin-right: 0.8rem;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#menu-close-button p {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
 }
 
 .top-navbar-logo-container {
@@ -88,7 +105,7 @@ body {
   margin: 0.5rem;
 }
 
-.hamburger-button {
+#menu-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +114,7 @@ body {
   width: 4rem;
   height: 4rem;
 
+  margin-top: 0.4rem;
   margin-right: 1rem;
 
   background-color: transparent;
@@ -106,9 +124,9 @@ body {
 
 .bar {
   width: 100%;
-  height: 0.4rem;
+  height: 0.3rem;
   background-color: white;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
   border-radius: 1rem;
 }
 
@@ -136,6 +154,8 @@ body {
     width: 100%;
     height: 100%;
 
+    padding: 0;
+
     visibility: visible;
   }
 
@@ -161,7 +181,15 @@ body {
     justify-self: flex-start;
   }
 
-  .hamburger-button {
+  .remove-on-desktop {
+    display: none;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  #menu-close-button {
     display: none;
   }
 }
@@ -318,7 +346,8 @@ footer p {
 
 .contributor img {
   width: 100%;
-  height: fit-content;
+  height: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .name {

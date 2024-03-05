@@ -1,0 +1,2 @@
+document.getElementById("menu-button").onclick = (ev) => document.getElementById("link-container").style.visibility = "visible";
+document.getElementById("menu-close-button").onclick = (ev) => document.getElementById("link-container").style.visibility = "hidden";
